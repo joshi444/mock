@@ -1,0 +1,15 @@
+import React from "react";
+import Navbar from '../components/Navbar/Navbar'
+import Hero from '../components/Hero/Hero';
+import Programs from '../components/Programs/Program';
+function Home() {
+    return(
+        <div>
+           <Navbar/>
+      <Hero/>
+    
+        </div>
+    )
+}
+
+export default Home;

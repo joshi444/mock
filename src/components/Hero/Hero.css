@@ -1,0 +1,23 @@
+.Hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://thearchitecturedesigns.com/wp-content/uploads/2020/04/University-of-Georgia-10.jpg");
+    background-position: center;
+    background-size:cover;
+    color:#fff;
+    text-shadow: 2px 4px 4px black;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero-text h1{
+    font-size: 50px;
+    font-weight: 300px;
+}
+.Hero-text p{
+    margin:10px auto 20px;
+    line-height: 1.4;
+}
